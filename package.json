@@ -1,18 +1,19 @@
 {
-  "name": "my-proj-template",
+  "name": "server-practice",
   "version": "1.0.0",
   "description": "My preferred configs & packages for new projects",
   "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickdloucks/preferred-project-template.git"
+    "url": "git+https://github.com/nickdloucks/server-practice.git"
   },
   "keywords": [
-    "my-project-template"
+    "my-project-template",
+    "server-practice"
   ],
   "author": "Nick Loucks",
   "bugs": {
-    "url": "https://github.com/nickdloucks/preferred-project-template/issues"
+    "url": "https://github.com/nickdloucks/server-practice/issues"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -36,6 +37,6 @@
     "jasmine": "^3.99.0",
     "jasmine-spec-reporter": "^7.0.0"
   },
-  "homepage": "https://github.com/nickdloucks/preferred-project-template#readme",
+  "homepage": "https://github.com/nickdloucks/server-practice#readme",
   "type": "module"
 }
