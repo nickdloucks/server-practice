@@ -18,7 +18,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "nodemon src/index.ts",
+    "start": "nodemon ./dist/index.mjs",
+    
     "build": "npx tsc",
     "test": "jasmine",
     "jtest": "npm run build && npm run test --silent"
